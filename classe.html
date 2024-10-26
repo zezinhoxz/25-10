@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Classe</title>
+
+    <style>
+        body {
+            margin: 30px;
+            /*margem*/
+            background-image: url(img/gradiente.jpg);
+            /*imagem de fundo*/
+            background-repeat: no-repeat;
+            /*instrução para não repetir imagem de fundo*/
+            background-size: cover;
+            /*tamanho da imagem de fundo*/
+            height: 100%;
+            /*tamanho da imagem de fundo*/
+            background-attachment: fixed;
+            background-position: top;
+            font-family: system-ui;
+            /*tipo de fundo*/
+        }
+
+        h1 {
+            color: aliceblue;
+            text-align: center;
+            /*alinha o texto no meio*/
+        }
+
+        h2 {
+            color: beige;
+            text-align: center;
+            /*alinha o texto no meio*/
+        }
+
+        p {
+            color: black;
+        }
+
+        .porquinhos {
+            margin-inline: 50px;
+        }
+
+        .html {
+            display: flex;
+            /*deixa os elementos alinhados lado a lado (alinhados em linha) (a imagem e o texto)*/
+            margin-inline: auto;
+            /*margem direita e margem esquerda (em linha)*/
+            text-align: justify;
+            /* tipo de texto justificado*/
+            align-items: center;
+            /*alinha o texto e os itens no meio no sentido y*/
+            background-color: antiquewhite;
+            padding-inline: 30px;
+            /*padding na esquerda e na direita em linha*/
+            margin-bottom: 30px;
+            /*margem de baixo do objeto, pra separar o objeto html do objeto css*/
+            box-shadow: 20px 20px 40px rgba(0, 0, 0, 0.5);
+            /*serve para aplicar sombra no objeto*/
+            border-radius: 15px;
+            /*deixa as quinas do objeto arredondadas*/
+        }
+
+        .css {
+            display: flex;
+            /*alinha os elementos lado a lado*/
+            margin-inline: auto;
+            /*margem em linha (direita e esquerda)*/
+            text-align: justify;
+            /*justifica o texto*/
+            background-color: bisque;
+            padding-inline: 30px;
+            /*padding em linha (direita e esquerda)*/
+            align-items: center;
+            /*alinha o texto na horizontal*/
+            box-shadow: 20px 20px 40px rgba(0, 0, 0, 0.5);
+            /*sombra cinza no elemento*/
+            border-radius: 15px;
+            /*deixa as pontas arredondadas*/
+        }
+
+        .linguagens {
+            display: flex;
+            margin-inline: auto;
+            font-size: 20px;
+            justify-content: center;  /*alinha os itens no meio da página*/
+            
+            
+        }
+
+        .javascript {
+            /*display: block;*/
+            /*na verdade essa linha não precisa existir necessáriamente*/
+            margin-inline: 10px;
+            /*margem em linha*/
+            text-align: center;
+            /*texto alinhado ao meio*/
+            background-color: antiquewhite;
+            padding-inline: 20px;
+            /*padding dos lados*/
+            align-items: center;
+            /*alinha todos os itens ao meio / também não precisa existir*/
+            box-shadow: 20px 20px 40px rgba(0, 0, 0, 0.5);
+            /*sombra*/
+            border-radius: 15px;
+            /*deixa as pontas arredondadas*/
+        }
+
+        .php {
+            display: block;
+            margin-inline: 10px;
+            text-align: center;
+            background-color: antiquewhite;
+            padding-inline: 30px;
+            align-items: center;
+            box-shadow: 20px 20px 40px rgba(0, 0, 0, 0.5);
+            border-radius: 15px;
+        }
+
+        .java {
+            display: block;
+            margin-inline: 10px;
+            text-align: center;
+            background-color: antiquewhite;
+            padding-inline: 30px;
+            align-items: center;
+            box-shadow: 20px 20px 40px rgba(0, 0, 0, 0.5);
+            border-radius: 15px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Criando classes e trabalhando com background</h1>
+    <h2>HTML</h2>
+
+
+    <section class="porquinhos">
+        <section class="html">
+            <img class="logohtml" src="img/logo-html.png" alt="logo html">
+            <p>Era uma vez três porquinhos que viviam em uma linda floresta com a mãe. Quando cresceram, decidiram morar
+                sozinhos e cada um construiu a sua própria casa.<br>A mãe, preocupada com a segurança dos filhos, os
+                alertou
+                sobre o lobo mau que vivia na floresta. "Tenham muito
+                cuidado, meus filhos! O lobo mau é traiçoeiro e eu não vou estar lá para proteger vocês", disse ela.
+                Os porquinhos saíram em busca do lugar perfeito para construir as suas casas. O mais novo, que só queria
+                saber
+                de brincar e pular, fez uma casa de penas de galinha bem rapidinho.</p>
+        </section>
+
+
+        <section class="css">
+            <p>O porquinho do meio, que também gostava de brincadeiras, construiu sua casa com alguns pedaços de madeira
+                e
+                folhas de bananeira.<br>Já o porquinho mais velho, que era o mais maduro, decidiu seguir o conselho da
+                mãe e
+                construir sua casa de
+                tijolos firmes e fortes. "Assim eu terei uma casa muito resistente para me proteger do lobo mau", pensou
+                ele.
+                Um belo dia, quando os três porquinhos estavam brincando alegremente, o lobo mau apareceu. "Olá, meus
+                porquinhos! Vejo três deliciosos pratos à minha frente", disse o lobo com água na boca. Assustados, os
+                porquinhos correram para suas casas.</p>
+            <img src="img/logo-css.png" class="logocss" alt="logo css">
+        </section>
+    </section>
+
+
+    <br>
+    <hr>
+
+
+    <h2>Linguagens de programação</h2>
+    <section class="linguagens">
+        <section class="javascript">
+            <p>Javascript</p>
+            <img src="img/logo-javascript.png" alt="javascript" width="200px">
+        </section>
+
+        <section class="php">
+            <p>PHP</p>
+            <img src="img/logo-php.png" alt="logo php" width="200px">
+        </section>
+
+        <section class="java">
+            <p>Java</p>
+            <img src="img/logo-java.png" alt="logo java" width="200px">
+        </section>
+    </section>
+
+</body>
+
+</html>
